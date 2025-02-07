@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import bot from './elizaSetup'; // Assuming you’ll create `elizaSetup` later
+import bot from './elizaSetup'; // create `elizaSetup` later
 import { listenForTransactions } from './transactionListener';
 import { logInfo } from '../utils/logger';
 
