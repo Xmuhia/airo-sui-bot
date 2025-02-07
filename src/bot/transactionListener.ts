@@ -15,7 +15,7 @@ export async function listenForTransactions() {
 
   const transactions = await suiClient.queryTransactionBlocks({
     filter: { FromAddress: suiAddress },
-    limit: 10, // Add a limit to prevent overwhelming retrieval
+    limit: 10, //Limit to prevent overwhelming retrieval
   });
 
   for (const tx of transactions.data) {
