@@ -1,5 +1,5 @@
-import { exchangeSuiForAiro } from './tokenService';
-import { logInfo, logError } from '../utils/logger';
+import { exchangeSuiForAiro } from './tokenService.js';
+import { logInfo, logError } from '../utils/logger.js';
 
 export async function handleCommand(command: string, sender: string) {
   logInfo(`Handling command: ${command} from ${sender}`);
