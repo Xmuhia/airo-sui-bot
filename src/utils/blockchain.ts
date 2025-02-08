@@ -1,5 +1,5 @@
 import { SuiClient } from '@mysten/sui.js/client';
-import { logError } from './logger';
+import { logError } from './logger.js';
 
 const suiClient = new SuiClient({
   url: 'https://fullnode.devnet.sui.io:443',
