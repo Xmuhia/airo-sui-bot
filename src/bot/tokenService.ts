@@ -3,7 +3,7 @@ import { Ed25519Keypair } from '@mysten/sui.js/keypairs/ed25519';
 import { TransactionBlock } from '@mysten/sui.js/transactions';
 import * as bip39 from 'bip39';
 import dotenv from 'dotenv';
-import { logInfo, logError } from '../utils/logger';
+import { logInfo, logError } from '../utils/logger.js';
 
 dotenv.config();
 
